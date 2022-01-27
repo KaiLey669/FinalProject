@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>Final Project</title>
+
+        <style>
+
+            body{
+                background: url("src/images/113.png");
+            }
+
+            .menu_block{
+                position: relative;
+                width: 700px;
+                height: 60px;
+                left: 50%;
+                top: 50px;
+                margin-left: -350px;
+                background: whitesmoke;
+                border: 2px solid lightslategray;
+                border-radius: 30px;
+            }
+
+            .my_page_ref{
+                position: absolute;
+                left: 5%;
+                top: 50%;
+                margin-top: -13px;
+                font-size: 25px;
+                color: black;
+            }
+
+            .messenger_ref{
+                position: absolute;
+                left: 22%;
+                top: 50%;
+                margin-top: -13px;
+                font-size: 25px;
+                color: black;
+            }
+
+            .webpack_ref{
+                position: absolute;
+                left: 43%;
+                top: 50%;
+                margin-top: -13px;
+                font-size: 25px;
+                color: black;
+            }
+
+            .art_station_ref{
+                position: absolute;
+                right: 22%;
+                top: 50%;
+                margin-top: -13px;
+                font-size: 25px;
+                color: black;
+            }
+
+            .drop_menu_text{
+                font-size: 25px;
+                color: black;
+            }
+
+            .dropdown{
+                position: absolute;
+                right: 5%;
+                top: 50%;
+                margin-top: -13px;
+            }
+
+            .dropbtn{
+                font-family: inherit;
+                background: none;
+                border: none;
+                cursor: pointer;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: rgb(220, 220, 220);
+                min-width: 140px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                font-size: 15px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .dropdown:hover .dropdown-content {display: block;}
+
+            .dropdown:hover .dropbtn {background-color: rgb(169, 169, 169);}
+
+            A:link {
+              text-decoration: none;
+            }
+            A:visited{
+                text-decoration: none;
+            }
+            A:active{
+                text-decoration: none;
+            }
+            A:hover{
+                text-decoration: none;
+                color: DarkBlue;
+            }
+
+            .text_first{
+                text-align: center;
+                font-size: 50px;
+                color: black;
+                margin-top: 100px;
+            }
+
+            .text_second{
+                text-align: center;
+                font-size: 30px;
+                color: black;
+            }
+
+            .text_third{
+                text-align: center;
+                font-size: 30px;
+                color: black;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class = "menu_block">
+            <a class = "my_page_ref" href="src/html/MyPage.html">My Page</a>
+            <a class = "messenger_ref" href="src/html/Messenger.html">Messenger</a>
+            <a class = "webpack_ref" href="src/webpack_page/dist/index.html">Webpack</a>
+            <a class = "art_station_ref" href="src/html/artStation.html">ArtStation</a>
+            <div class = "dropdown">
+                <button class = "dropbtn"><div class="drop_menu_text">Games</div></button>
+                <div class="dropdown-content">
+                    <a href="src/html/brothers.html">Pilot Brothers</a>
+                    <a href="src/html/timer.html">Timer</a>
+                    <a href="src/html/whack-a-mole.html">Whack-a-mole</a>
+                </div>
+            </div>
+        </div>
+
+        <p class = "text_first">The Final Project</p>
+        <p class = "text_second">Выполнил:</p>
+        <p class = "text_third">Слободчиков В.А. Б9119-09.03.04 Прогин</p>
+    </body>
+</html>

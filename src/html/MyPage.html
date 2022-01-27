@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+
+        /*body{*/
+        /*    background: url("HW_3/113.png");*/
+        /*}*/
+
+        h1.text{
+            font-family: "Piazolla";
+            text-align: center;
+            font-size: 35px;
+            color: rgb(135, 206, 250);
+            font-weight: 200;
+            text-shadow: 0 0 2px black, 0 0 2px black;
+        }
+
+        h2.text{
+            font-family: "Piazolla";
+            font-size: 25px;
+            color: rgb(135, 206, 250);
+            font-weight: 200;
+            text-shadow: 0 0 2px black, 0 0 2px black;
+        }
+
+        p{
+            font-family: "Piazolla";
+            color: rgb(135, 206, 250);
+            font-weight: 200;
+            text-shadow: 0 0 2px black, 0 0 2px black;
+            font-size: 20px;
+        }
+
+        .dropMenuText{
+            font-family: "Piazolla";
+            color: rgb(135, 206, 250);
+            font-weight: 200;
+            text-shadow: 0 0 2px black, 0 0 2px black;
+            font-size: 20px;
+        }
+
+        .dropbtn{
+            background-color: rgb(220, 220, 220);
+            border: 2px solid rgb(169, 169, 169);
+            padding: 16px;
+            cursor: pointer;
+        }
+
+        .dropdown-music{
+            position: absolute;
+            /*display: inline-block;*/
+            left: 30%;
+        }
+
+        .dropdown-games{
+            position: absolute;
+            /*display: inline-block;*/
+            left: 50%;
+            margin-left: -115px;
+        }
+
+        .dropdown-books{
+            position: absolute;
+            /*display: inline-block;*/
+            right: 30%;
+        }
+
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: rgb(220, 220, 220);
+            min-width: 200px;
+            width: 100%;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            font-family: "Piazolla";
+            color: rgb(135, 206, 250);
+            font-weight: 200;
+            text-shadow: 0 0 2px black, 0 0 2px black;
+            font-size: 20px;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {background-color: rgb(128, 128, 128)}
+
+        .dropdown-music:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-music:hover .dropbtn {
+            background-color: rgb(169, 169, 169);
+        }
+
+         .dropdown-games:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-games:hover .dropbtn {
+            background-color: rgb(169, 169, 169);
+        }
+
+         .dropdown-books:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-books:hover .dropbtn {
+            background-color: rgb(169, 169, 169);
+        }
+
+        
+    </style>
+    
+    <title>Мемуары</title>
+</head>
+
+<body>
+
+    <h1 class = "text">Слободчиков В.А.</h1>
+    <h2 class = "text"><div style = "text-align: center; margin-bottom: -15px;">Общая информация:</div></h2>
+    
+    <p style="text-align: center;">
+        Студент ПрогИна 3 курса. Уроженец города Уссурийск, проживающий на первом курсе в Хбк, на третьем в Чите, и учащийся в Вдк.
+    </p>
+
+    <div class="dropdown-music">
+        <button class="dropbtn"><div class="dropMenuText">Моя любимая музыка</div></button>
+        <div class="dropdown-content">
+          <a href="#">Three Days Grace</a>
+          <a href="#">Lord of the Lost</a>
+          <a href="#">Pyrokinesis</a>
+        </div>
+    </div>
+
+    <div class="dropdown-games">
+        <button class="dropbtn"><div class="dropMenuText">Мои любимые игры</div></button>
+        <div class="dropdown-content">
+          <a href="#">Witcher 3: Wild Hunt</a>
+          <a href="#">Метро 2033</a>
+          <a href="#">Сталкер: Зов Припяти</a>
+        </div>
+    </div>
+
+    <div class="dropdown-books">
+        <button class="dropbtn"><div class="dropMenuText">Мои любимые писатели</div></button>
+        <div class="dropdown-content">
+          <a href="#">Стивен Кинг</a>
+          <a href="#">Александр Грибоедов</a>
+          <a href="#">Анджей Сапковский</a>
+        </div>
+    </div>
+
+<!--    <p style="text-align: center;">Еще некоторые факты</p>-->
+
+<!--    <ul style="padding-left: 575px;">-->
+<!--        <li><img src="HW_3/image.jpg"></li>-->
+<!--        <li><details style="font-family: Piazolla;-->
+<!--            color: rgb(135, 206, 250);-->
+<!--            font-weight: 200;-->
+<!--            text-shadow: 0 0 2px black, 0 0 2px black;-->
+<!--            font-size: 20px;">Есть пробитие!</details>-->
+<!--    </ul>-->
+
+</body>
+</html>
